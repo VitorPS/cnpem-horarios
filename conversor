@@ -1,0 +1,4 @@
+#!/bin/bash
+
+source /home/vps/.env/bin/activate  
+pyuic5 horarios.ui -o horarios_ui.py
