@@ -6,7 +6,7 @@ Este software segue o mesmo cálculo do cnpem: tolerância de mais ou menos 10 m
 
 Descrição de uso:
 
-Aba Editar - permite editar os horários de entrada e saída, basta selecionar a data desejada. As horas devem sempre estar no formato hh:mm. O botão "Hoje" muda a data para a data atual, o botão "Calcular" permite ver hora extra e ausência antes de salvar os dados, o botão "Salvar" calcula e grava os dados do dia e o botão "Limpar" grava todos os campos. Se você almoçar no CNPEM, é preciso habilitar a checkbox "Almoço no CNPEM". Você pode deixar o almoço checado por default, basta tirar descomentar na linha 39 e comentar a linha 97.
+Aba Editar - permite editar os horários de entrada e saída, basta selecionar a data desejada. As horas devem sempre estar no formato hh:mm. O botão "Hoje" muda a data para a data atual, o botão "Calcular" permite ver hora extra e ausência antes de salvar os dados, o botão "Salvar" calcula e grava os dados do dia e o botão "Limpar" grava todos os campos. Se você almoçar no CNPEM, é preciso habilitar a checkbox "Almoço no CNPEM". Você pode deixar o almoço checado por default, basta descomentar a linha 39 e comentar a linha 97.
 
 Faltas: As faltas devem ser salvas no banco de dados para a contagem correta do extrato de horas, pode-se fazer isso escrevendo "00:00" nos campos Entrada1 e Saida1, ou digitando "Falta" no comentário, porém no meu caso eu prefiro detalhar melhor o motivo da falta no comentário, dando preferência à primeira alternativa portanto.
 
